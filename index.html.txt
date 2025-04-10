@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видеохостинги</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Популярные видеохостинги</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О сайте</a></li>
+                <li><a href="#list">Список хостингов</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Что такое видеохостинг?</h2>
+        <p>Видеохостинг — это онлайн-платформа, которая позволяет загружать, хранить и просматривать видео. Примеры: YouTube, Vimeo, Dailymotion.</p>
+    </section>
+
+    <section id="list">
+        <h2>Популярные видеохостинги</h2>
+        <div class="hostings">
+            <div class="hosting">
+                <h3>YouTube</h3>
+                <p>Самый популярный видеохостинг в мире, принадлежащий Google.</p>
+                <a href="https://youtube.com" target="_blank">Перейти</a>
+            </div>
+            <div class="hosting">
+                <h3>Vimeo</h3>
+                <p>Платформа для профессионалов и креативных создателей контента.</p>
+                <a href="https://vimeo.com" target="_blank">Перейти</a>
+            </div>
+            <div class="hosting">
+                <h3>Dailymotion</h3>
+                <p>Французский видеохостинг, аналог YouTube.</p>
+                <a href="https://www.dailymotion.com" target="_blank">Перейти</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Видеохостинги</p>
+    </footer>
+
+</body>
+</html>
